@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nút Thêm TextView -->
+    <Button
+        android:id="@+id/addTextViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm TextView" />
+
+    <!-- Nút Xóa TextView -->
+    <Button
+        android:id="@+id/removeTextViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa TextView" />
+
+    <!-- LinearLayout để chứa các TextView động -->
+    <LinearLayout
+        android:id="@+id/textViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
